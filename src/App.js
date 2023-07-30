@@ -13,7 +13,7 @@ function App() {
     try {
       // const res = await axios.get("http://localhost:9090/messages");
       const res = await axios.get(
-        "https://jan-softa-quote-server.glitch.me/quotes"
+        "https://jan-softa-cyf-chat-server.glitch.me"
       );
       setData(res.data);
     } catch (error) {
